@@ -16,7 +16,7 @@
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
-        "token-transaltion": {
+        "token-translation": {
           "registration": {
             "clientIdSettingName": "9d6BY_a0kHIBYBIuT60PLYKoadYJsm-wVY9BU16KGYA",
             "clientCredential": {

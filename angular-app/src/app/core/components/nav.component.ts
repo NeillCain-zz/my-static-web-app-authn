@@ -26,17 +26,7 @@ import { UserInfo } from '../model/user-info';
         <ng-template #logout>
           <a href="/.auth/logout?post_logout_redirect_uri={{redirect}}">Logout</a>
         </ng-template>
-      </div>
-      <div class="menu-list auth">
-        <ng-container *ngIf="!userInfo; else logout">
-          <ng-container *ngFor="let provider of providers">
-            <a href="/.auth/login/token-transaltion?post_login_redirect_uri={{redirect}}">Trisus Login</a>            
-          </ng-container>
-        </ng-container>
-        <ng-template #logout>
-          <a href="/.auth/logout?post_logout_redirect_uri={{redirect}}">Logout</a>
-        </ng-template>
-      </div>
+      </div>      
     </nav>    
     <div class="user" *ngIf="userInfo">
       <p>Welcome</p>
@@ -48,7 +38,7 @@ import { UserInfo } from '../model/user-info';
 export class NavComponent implements OnInit {
   userInfo: UserInfo;
 
-  providers = ['twitter', 'github', 'aad'];
+  providers = ['twitter', 'github', 'aad', 'token-translation'];
 
   redirect = window.location.pathname;
 
