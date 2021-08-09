@@ -18,9 +18,9 @@
       "customOpenIdConnectProviders": {
         "foobar": {
           "registration": {
-            "clientIdSettingName": "9d6BY_a0kHIBYBIuT60PLYKoadYJsm-wVY9BU16KGYA",
+            "clientIdSettingName": "MY_PROVIDER_CLIENT_ID",
             "clientCredential": {
-              "clientSecretSettingName": "mT+c6dEyvACUaNz8t9SLTI9ZgFcBJl3fObJRFing9Z8="
+              "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "https://dev-api-token-translation.cw-eng-test.com/.well-known/openid-configuration"
