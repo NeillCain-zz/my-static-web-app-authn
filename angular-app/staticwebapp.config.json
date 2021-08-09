@@ -16,7 +16,7 @@
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
-        "token-translation": {
+        "foobar": {
           "registration": {
             "clientIdSettingName": "9d6BY_a0kHIBYBIuT60PLYKoadYJsm-wVY9BU16KGYA",
             "clientCredential": {

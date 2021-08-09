@@ -38,7 +38,7 @@ import { UserInfo } from '../model/user-info';
 export class NavComponent implements OnInit {
   userInfo: UserInfo;
 
-  providers = ['twitter', 'github', 'aad', 'token-translation'];
+  providers = ['twitter', 'github', 'aad', 'foobar'];
 
   redirect = window.location.pathname;
 
