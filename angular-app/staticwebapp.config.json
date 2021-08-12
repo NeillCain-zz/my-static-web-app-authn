@@ -23,7 +23,7 @@
               "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://localhost:5000/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://dev-api-token-translation.cw-eng-test.com/.well-known/openid-configuration"
             }
           },
           "login": {

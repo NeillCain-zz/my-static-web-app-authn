@@ -32,6 +32,7 @@ import { UserInfo } from '../model/user-info';
       <p>Welcome</p>
       <p>{{ userInfo?.userDetails }}</p>
       <p>{{ userInfo?.identityProvider }}</p>
+      <p *ngFor="let role of userInfo?.userRoles">{{role}}</p>
     </div>
   `,
 })
