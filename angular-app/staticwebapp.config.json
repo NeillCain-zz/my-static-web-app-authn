@@ -27,8 +27,8 @@
             }
           },
           "login": {
-            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
-            "scopes": [""],
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/0 5/identity/claims/name",
+            "scopes": ["openid", "profile", "trisus.identity", "trisus"],
             "loginParameterNames": []
           }
         }
